@@ -44,7 +44,7 @@ This model uses a **Convolutional Neural Network (CNN)** for classifying banana 
 - **Model Accuracy**: `99.23%` on the test data.
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 10px; gap:20px;">
     <img src='./assets/prediction-image.png' alt="banana-leaf-disease-prediction" width='800' height="600" />
-    <img src='./assets/training_and_validation_accuracy.png' alt="accuracy-and-loss-graph" height="400px" />
+    <img src='./assets/training_and_validation_accuracy.png' alt="accuracy-and-loss-graph" width="800" />
 </div>
 
 ## Installation and Setup
