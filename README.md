@@ -1,7 +1,7 @@
 # Banana Leaf Disease Detection Using Deep Learning
 
 <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 10px;">
-    <img src='./assets/banner.png' alt="banana-leaf-disease" width='800' />
+    <img src='./assets/banner.png' alt="banana-leaf-disease" width='800' height="400" />
 </div>
 
 This project aims to assist farmers in detecting banana leaf diseases early by uploading an image of a diseased banana leaf. The model is based on Convolutional Neural Networks (CNN) and provides an accurate prediction of whether a banana leaf is healthy or affected by disease.
