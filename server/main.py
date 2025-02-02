@@ -10,8 +10,7 @@ print(tf.__version__)
 app = FastAPI()
 
 origins = [
-    "http://localhost",
-    "http://localhost:5173",
+    'https://ecoleaf.vercel.app'
 ]
 app.add_middleware(
     CORSMiddleware,
