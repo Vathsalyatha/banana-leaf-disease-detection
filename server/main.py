@@ -24,8 +24,8 @@ MODEL = tf.keras.models.load_model("/Users/apple/Documents/Banana-Leaf-Disease-D
 
 CLASS_NAMES = ["cordana", "healthy", "pestalotiopsis", "sigatoka"]
 
-@app.get("/ping")
-async def ping():
+@app.get("/")
+async def root():
     return "Hello, There"
 
 def read_file_as_image(data) -> np.ndarray:
@@ -47,7 +47,7 @@ async def predict(
         'class': predicted_class,
         'confidence': float(confidence)
     }
-    
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host='localhost', port=8000)
