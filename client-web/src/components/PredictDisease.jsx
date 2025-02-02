@@ -48,7 +48,7 @@ const PredictDisease = () => {
                     </div>
                     <div className='mt-5 w-[90%] lg:w-[50%] flex flex-col items-center justify-center'>
                         {image && <img src={image} className='w-full h-96 rounded-2xl object-cover shadow cursor-pointer' />}
-                        <button type='submit' className='px-10 py-3 rounded-lg text-xs bg-green-900 text-white mt-5 cursor-pointer'>Predict</button>
+                        <button type='submit' className='w-60 py-3 rounded-lg text-xs bg-green-900 text-white mt-5 cursor-pointer'>Predict</button>
                     </div>
                     <div className='my-5'>
                         {prediction && 
