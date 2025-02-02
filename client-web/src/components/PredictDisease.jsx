@@ -12,7 +12,7 @@ const PredictDisease = () => {
             data.append("file", file);
         }
         try {
-            const response = await axios.post('http://localhost:8000/predict', data, {
+            const response = await axios.post('https://ecoleaf-api.onrender.com/predict', data, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
