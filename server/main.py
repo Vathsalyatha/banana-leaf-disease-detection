@@ -10,7 +10,8 @@ print(tf.__version__)
 app = FastAPI()
 
 origins = [
-    'https://ecoleaf.vercel.app'
+    'https://ecoleaf.vercel.app',
+    'http://localhost:5173'
 ]
 app.add_middleware(
     CORSMiddleware,
@@ -20,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("/Users/apple/Documents/Banana-Leaf-Disease-Detection/banana_leaf_disease.h5")
+MODEL = tf.keras.models.load_model("../banana_leaf_disease.h5")
 
 CLASS_NAMES = ["cordana", "healthy", "pestalotiopsis", "sigatoka"]
 
